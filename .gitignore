@@ -28,3 +28,7 @@ npm-debug.log*
 *.mp4
 *.mov
 *.mkv
+
+# Reference images
+ref.webp
+ref2.webp
