@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #FFFFFF;
+  --color-secondary: rgba(255, 255, 255, 0.5);
+  --color-tertiary: rgba(255, 255, 255, 0.3);
+  
+  --color-bg-base: #000000;
+  --color-bg-surface: rgba(255, 255, 255, 0.05);
+  --color-bg-surface-elevated: rgba(255, 255, 255, 0.08);
+  --color-bg-input: rgba(255, 255, 255, 0.03);
+  --color-bg-input-focus: rgba(255, 255, 255, 0.06);
+  
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  --color-border-focus: rgba(255, 255, 255, 0.2);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  
+  --animate-fade-in: fade-in 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  --animate-slide-up: slide-up 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+html, body, #root {
+  @apply w-full h-full m-0 p-0 overflow-hidden;
+  background-color: var(--color-bg-base);
+  background-image: radial-gradient(circle at 50% 50%, #111 0%, #000 100%);
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-subtle);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-focus);
+}
