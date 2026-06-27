@@ -306,7 +306,7 @@ SupplyProof/
 ## 🌐 Live Demo
 
 - **Frontend**: [TO BE FILLED — Vercel/Netlify link]
-- **Demo Video**: [TO BE FILLED — 1-2 minute walkthrough]
+- **Demo Video**: [Watch the walkthrough video](./demo.mp4)
 
 ## 📜 License
 
