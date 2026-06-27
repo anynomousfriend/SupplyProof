@@ -3,7 +3,7 @@
   <h1>SupplyProof</h1>
   <p><em>Supply Chain Checkpoint Verification on Stellar</em></p>
   <br />
-  <video src="https://github.com/YOUR_USERNAME/SupplyProof/raw/main/demo.mp4" autoplay loop muted playsinline style="max-width: 800px; width: 100%; border-radius: 12px;"></video>
+  <video src="https://github.com/anynomousfriend/SupplyProof/raw/main/demo.mp4" autoplay loop muted playsinline style="max-width: 800px; width: 100%; border-radius: 12px;"></video>
 </div>
 A full-stack Stellar decentralized application (dApp) for recording and verifying supply chain checkpoints on-chain. Built with Rust/Soroban smart contracts and a modern React frontend, SupplyProof provides tamper-proof provenance tracking from origin to retail.
 
