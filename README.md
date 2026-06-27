@@ -107,7 +107,7 @@ rustup target add wasm32v1-none
 ```bash
 # For Linux x86_64:
 curl -sSL https://github.com/stellar/stellar-cli/releases/download/v27.0.0/stellar-cli-27.0.0-x86_64-unknown-linux-gnu.tar.gz | tar -xz
-mv stellar-cli-27.0.0-x86_64-unknown-linux-gnu/stellar ~/.local/bin/stellar
+mv stellar ~/.local/bin/stellar
 ```
 *(Make sure `~/.local/bin` is in your `PATH`)*
 
